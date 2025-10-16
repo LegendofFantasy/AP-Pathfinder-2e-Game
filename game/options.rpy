@@ -23,13 +23,16 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = "1.0.0"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+AP Pathfinder 2e uses trademarks and/or copyrights owned by Paizo Inc., used under Paizo's Community Use Policy {a=https://paizo.com/licenses/communityuse}(paizo.com/licenses/communityuse){/a}. 
+We are expressly prohibited from charging you to use or access this content. AP Pathfinder 2e is not published, endorsed, or specifically approved by Paizo. 
+For more information about Paizo Inc. and Paizo products, visit {a=https://paizo.com/}paizo.com{/a}.
 """)
 
 
@@ -46,9 +49,9 @@ define build.name = "APPathfinder2e"
 ## to the player by default. Setting one of these to False will hide the
 ## appropriate mixer.
 
-define config.has_sound = True
-define config.has_music = True
-define config.has_voice = True
+define config.has_sound = False
+define config.has_music = False
+define config.has_voice = False
 
 
 ## To allow the user to play a test sound on the sound or voice channel,
